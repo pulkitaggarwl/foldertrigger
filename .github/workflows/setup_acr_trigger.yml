@@ -10,7 +10,7 @@ on:
 #   CONTAINER_REGISTRY_NAME
 env:
  RESOURCE_GROUP: testdeploy      #set this to your resource group name      
- CONTAINER_REGISTRY_NAME: anyregvivek    #set this to your container registry name
+ CONTAINER_REGISTRY_NAME: anyregvivek     #set this to your container registry name
  
 jobs:
     build-and-deploy:
