@@ -9,7 +9,7 @@ on:
 #   RESOURCE_GROUP
 #   CONTAINER_REGISTRY_NAME
 env:
- RESOURCE_GROUP: testdeploy       #set this to your resource group name      
+ RESOURCE_GROUP: testdeploy      #set this to your resource group name      
  CONTAINER_REGISTRY_NAME: vivek123    #set this to your container registry name
  
 jobs:
