@@ -1,4 +1,4 @@
-# Template Workflow to auto-deploy any new ACR image to AKS.
+# Template Workflow to auto-deploy any new ACR image to AKS. 
 
 The workflows in this repo show how to auto deploy any new images in ACR ( Azure Container Registery ) to AKS ( Azure Kubernetes Cluster). 
 
