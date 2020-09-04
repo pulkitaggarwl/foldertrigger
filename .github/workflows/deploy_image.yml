@@ -1,5 +1,5 @@
 name: CI
-on:
+on: 
   repository_dispatch:
     types: [containerregistry-imagepushed]
     
