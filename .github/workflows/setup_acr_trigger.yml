@@ -19,19 +19,4 @@ jobs:
         # checkout the repo 
         - name: 'Checkout GitHub Action'
           uses: actions/checkout@v2
-          
-                  
-        - name: 'Login via Azure CLI'
-          uses: azure/login@v1
-          with:
-            creds: ${{ secrets.AZURE_CREDENTIALS }}
-
-
-        - name: create subscription
-          uses: azure/CLI@v1 
-          with:
-             azcliversion: 2.9.1
-             inlineScript: |
-                az deployment group create --resource-group ${{ env.RESOURCE_GROUP }} -n "acrtry" --template-file .cloud/.azure/deploy.json \
-                --parameters .cloud/.azure/deploy.params.json patToken=${{secrets.PATTOKEN}} \
-                containerRegistryName=${{ env.CONTAINER_REGISTRY_NAME }} repo_name=$GITHUB_REPOSITORY
+       
